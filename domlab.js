@@ -9,6 +9,7 @@ boudica.style.borderRadius = "40px";
 boudica.style.marginLeft = "25%";
 
 const paragraph = document.querySelector('p');
+paragraph.textContent = "This is an image of Queen Boudica. She defended her people against a Roman invasion. Utlimately she lost, but she gave the bastards a run for their money."
 let originalParagraph = paragraph.textContent;
 paragraph.style.margin = "auto";
 paragraph.style.textAlign = "center";
